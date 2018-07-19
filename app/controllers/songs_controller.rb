@@ -1,5 +1,3 @@
-require 'rack-flash'
-
 class SongsController < ApplicationController
   def index
     if params[:artist_id]
